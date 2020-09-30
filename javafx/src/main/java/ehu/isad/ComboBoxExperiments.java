@@ -60,11 +60,7 @@ public class ComboBoxExperiments extends Application {
                 ioException.printStackTrace();
             }
             text.setText("prezioa: "+txanpona1.price);
-            text.setX(200);
-            text.setY(200);
-
-            label.setVisible(true);
-            label.setText("Txanponak: ");
+            
         });
 
         VBox vbox = new VBox(label,comboBox,text);
